@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+
+}
+
+.cool-link:after{
+    color: #FF2626;
+}
+.cool-link:hover{
+    color: #FF2626;
+}
+.cool-link:hover::after{
+    color: #FF2626;
+}
